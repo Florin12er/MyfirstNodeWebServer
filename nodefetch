@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import os from "os";
-import fs from "fs";
+const fs = require("fs");
+const os = require("os");
 // Function to display ASCII art of Arch Linux logo
 function displayArchLogo() {
   if (getDistroName() === "arch") {
